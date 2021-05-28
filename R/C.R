@@ -1,0 +1,50 @@
+####Libraries####
+library(here) ##todas
+library(iNEXT)
+library(ape)
+
+
+here()
+dat19 <- read.table (here("data","processed","dados_cobertura19.txt"), header=T)
+str(dat19)
+t(dat19)
+# #ponto QUA1403 tem uma área muito discrepante (134km2), por isso foi retirado das analises
+dat19<-dat19[rownames(dat19)!="QUA1403",]
+hist(dat19$area)
+
+#Vou carregar a matriz de abund?ncia para a an?lise
+peixes<-read.table (here("data","processed","biotic.txt"), header=T)
+#peixes<-peixes[rownames(peixes)!="QUA1403",]
+head(peixes)
+
+#Avaliando o nível de completness das comunidades
+out2 <- iNEXT(t(peixes), datatype="abundance")
+ggiNEXT(out2, type=2, se=TRUE)
+out2$DataInfo #Usamos ponto de corte de nível de sample coverage (completness SC) = 0.95 (95%)
+NomeRemover<-out2$DataInfo[out2$DataInfo$SC<0.94,]$site
+NomeRemover<-as.character(NomeRemover)
+
+###Filtrando todos pontos menos 1 que nao tem amostragem completa
+C.dat19<-dat19[dat19$Pontos!=NomeRemover,]
+C.peixes<-peixes[rownames(peixes)!=NomeRemover,]
+
+### Avaliando a correlaçao espacial de Moran ####
+coords<-read.csv (here("data","processed","ptos_coordenadas.csv"), header=T,  sep=",")
+C.coords<-coords[coords$Codigo_Ca!=NomeRemover,]
+
+##Avaliando distribuicao dos pontos
+plot(coords$X, coords$Y, cex=0.5, pch=19)
+text(coords$X, coords$Y, labels=coords$Codigo_Ca)
+
+#Conferindo o ponto excluido
+all(C.coords$Codigo_Ca==C.dat19$Pontos)
+all(C.coords$Codigo_Ca==rownames(C.peixes))
+
+##Novo objeto para coordenadas
+geo<-cbind(C.coords$X, C.coords$Y)
+rownames(geo)<-C.coords$Codigo_Ca
+samples.dist <- as.matrix( dist(geo) )
+samples.dist.inv <- 1/samples.dist
+diag(samples.dist.inv) <- 0
+
+
