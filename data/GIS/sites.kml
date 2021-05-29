@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PTOS_PPBIO_NEXUS" id="PTOS_PPBIO_NEXUS">
+	<SimpleField name="Source" type="string"></SimpleField>
+	<SimpleField name="descriptio" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMo" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="string"></SimpleField>
+	<SimpleField name="extrude" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="drawOrder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>PTOS_PPBIO_NEXUS</name>
+  <Placemark>
+	<name>ALE-CSR-PA-1904</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">1556279032.382</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-56.0591777451667,-29.9099590272694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALE-CSR-PA-1905</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">1556279032.382</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-56.004845409667,-29.9092624391359,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALE-CSR-PA-1907</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">1556279032.382</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.9958342077987,-29.993784895996,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALE-CSR-PA-1906</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">1556279032.382</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.9848294845957,-29.884122330841,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ACE-CGR-PA-1904</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.3179889325555,-31.6567323901917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ACE-CGR-PA-1901</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.0963887665623,-31.5116407152126,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ACE-CGR-PA-1902</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.2033492655711,-31.6442611522625,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ACE-CGR-PA-1903</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.1451140307049,-31.552296766653,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALE-CCA-PA-1301</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-25</SimpleData>
+		<SimpleData name="timestamp">-55.381141</SimpleData>
+		<SimpleData name="begin">-29.763297</SimpleData>
+		<SimpleData name="end">3.315600</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.381141,-29.763297,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALE-CCA-PA-1302</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-27</SimpleData>
+		<SimpleData name="timestamp">-55.398571</SimpleData>
+		<SimpleData name="begin">-29.768941</SimpleData>
+		<SimpleData name="end">36.607500</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.398571,-29.768941,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALE-CCA-PA-1303</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-28</SimpleData>
+		<SimpleData name="timestamp">-55.415024</SimpleData>
+		<SimpleData name="begin">-29.780183</SimpleData>
+		<SimpleData name="end">38.489400</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.415024,-29.780183,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JAG-CMC-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-01-11</SimpleData>
+		<SimpleData name="timestamp">-53.436979</SimpleData>
+		<SimpleData name="begin">-32.231235</SimpleData>
+		<SimpleData name="end">22.213226</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.436979,-32.231235,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JAG-CMC-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-01-12</SimpleData>
+		<SimpleData name="timestamp">-53.454674</SimpleData>
+		<SimpleData name="begin">-32.241086</SimpleData>
+		<SimpleData name="end">27.166853</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.454674,-32.241086,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JAG-CMC-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-01-13</SimpleData>
+		<SimpleData name="timestamp">-53.395480</SimpleData>
+		<SimpleData name="begin">-32.252567</SimpleData>
+		<SimpleData name="end">14.400446</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.39548,-32.252567,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUA-CSR-PA-1301</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-23</SimpleData>
+		<SimpleData name="timestamp">-55.926230</SimpleData>
+		<SimpleData name="begin">-30.304496</SimpleData>
+		<SimpleData name="end">10.605600</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.92623,-30.304496,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUA-CSR-PA-1302</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-23</SimpleData>
+		<SimpleData name="timestamp">-55.966083</SimpleData>
+		<SimpleData name="begin">-30.292338</SimpleData>
+		<SimpleData name="end">27.273600</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.966083,-30.292338,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUA-CSR-PA-1303</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-24</SimpleData>
+		<SimpleData name="timestamp">-55.971250</SimpleData>
+		<SimpleData name="begin">-30.283490</SimpleData>
+		<SimpleData name="end">48.544200</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.97125,-30.28349,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAM-CCE-PA-1301</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-11-26</SimpleData>
+		<SimpleData name="timestamp">-55.480953</SimpleData>
+		<SimpleData name="begin">-28.544939</SimpleData>
+		<SimpleData name="end">16.872300</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.480953,-28.544939,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAM-CCE-PA-1302</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-11-27</SimpleData>
+		<SimpleData name="timestamp">-55.437127</SimpleData>
+		<SimpleData name="begin">-28.552564</SimpleData>
+		<SimpleData name="end">32.354100</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.437127,-28.552564,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAM-CCE-PA-1303</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-11-28</SimpleData>
+		<SimpleData name="timestamp">-55.469611</SimpleData>
+		<SimpleData name="begin">-28.515030</SimpleData>
+		<SimpleData name="end">6.230700</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.469611,-28.51503,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SBV-CAR-PA-1301</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-12-13</SimpleData>
+		<SimpleData name="timestamp">-53.227130</SimpleData>
+		<SimpleData name="begin">-30.854714</SimpleData>
+		<SimpleData name="end">10.431900</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.22713,-30.854714,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SBV-CAR-PA-1302</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-12-13</SimpleData>
+		<SimpleData name="timestamp">-53.240583</SimpleData>
+		<SimpleData name="begin">-30.850170</SimpleData>
+		<SimpleData name="end">43.048800</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.240583,-30.85017,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SBV-CAR-PA-1303</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-12-14</SimpleData>
+		<SimpleData name="timestamp">-53.194339</SimpleData>
+		<SimpleData name="begin">-30.823874</SimpleData>
+		<SimpleData name="end">6.726600</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.194339,-30.823874,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLD-CCB-PA-1301</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-10</SimpleData>
+		<SimpleData name="timestamp">-52.454926</SimpleData>
+		<SimpleData name="begin">-28.857349</SimpleData>
+		<SimpleData name="end">23.842800</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-52.454926,-28.857349,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLD-CCB-PA-1302</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-11</SimpleData>
+		<SimpleData name="timestamp">-52.434690</SimpleData>
+		<SimpleData name="begin">-28.892401</SimpleData>
+		<SimpleData name="end">23.157900</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-52.43469,-28.892401,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLD-CCB-PA-1303</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2013-10-11</SimpleData>
+		<SimpleData name="timestamp">-52.479540</SimpleData>
+		<SimpleData name="begin">-28.869003</SimpleData>
+		<SimpleData name="end">9.109800</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-52.47954,-28.869003,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SGA-CMM-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-02-16</SimpleData>
+		<SimpleData name="timestamp">-54.307873</SimpleData>
+		<SimpleData name="begin">-30.102347</SimpleData>
+		<SimpleData name="end">3.442500</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.307873,-30.102347,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SGA-CMM-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-02-17</SimpleData>
+		<SimpleData name="timestamp">-54.305257</SimpleData>
+		<SimpleData name="begin">-30.092249</SimpleData>
+		<SimpleData name="end">12.165300</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.305257,-30.092249,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SGA-CMM-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-02-18</SimpleData>
+		<SimpleData name="timestamp">-54.326217</SimpleData>
+		<SimpleData name="begin">-30.125123</SimpleData>
+		<SimpleData name="end">1.631700</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.326217,-30.125123,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPS-EXI-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-10</SimpleData>
+		<SimpleData name="timestamp">-54.414926</SimpleData>
+		<SimpleData name="begin">-29.357235</SimpleData>
+		<SimpleData name="end">19.655100</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.414926,-29.357235,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPS-EXI-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-11</SimpleData>
+		<SimpleData name="timestamp">-54.301585</SimpleData>
+		<SimpleData name="begin">-29.400262</SimpleData>
+		<SimpleData name="end">18.181800</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.301585,-29.400262,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPS-EXI-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-11</SimpleData>
+		<SimpleData name="timestamp">-54.034254</SimpleData>
+		<SimpleData name="begin">-29.293941</SimpleData>
+		<SimpleData name="end">27.476100</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.034254,-29.293941,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPS-EXI-PA-1404</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-12</SimpleData>
+		<SimpleData name="timestamp">-54.122079</SimpleData>
+		<SimpleData name="begin">-29.317881</SimpleData>
+		<SimpleData name="end">7.420500</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.122079,-29.317881,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPS-EXI-PA-1405</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-13</SimpleData>
+		<SimpleData name="timestamp">-54.210625</SimpleData>
+		<SimpleData name="begin">-29.350231</SimpleData>
+		<SimpleData name="end">29.219400</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.210625,-29.350231,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPS-EXI-PA-1406</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-13</SimpleData>
+		<SimpleData name="timestamp">-54.389707</SimpleData>
+		<SimpleData name="begin">-29.345179</SimpleData>
+		<SimpleData name="end">36.383400</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.389707,-29.345179,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAT-EXII-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-26</SimpleData>
+		<SimpleData name="timestamp">-54.777171</SimpleData>
+		<SimpleData name="begin">-29.386775</SimpleData>
+		<SimpleData name="end">24.143400</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.777171,-29.386775,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAT-EXII-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-26</SimpleData>
+		<SimpleData name="timestamp">-54.753204</SimpleData>
+		<SimpleData name="begin">-29.219682</SimpleData>
+		<SimpleData name="end">7.100100</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.753204,-29.219682,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAT-EXII-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-27</SimpleData>
+		<SimpleData name="timestamp">-55.086094</SimpleData>
+		<SimpleData name="begin">-29.063870</SimpleData>
+		<SimpleData name="end">4.924800</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.086094,-29.06387,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAT-EXII-PA-1404</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-27</SimpleData>
+		<SimpleData name="timestamp">-54.573496</SimpleData>
+		<SimpleData name="begin">-29.107878</SimpleData>
+		<SimpleData name="end">29.611800</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.573496,-29.107878,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAT-EXII-PA-1405</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-28</SimpleData>
+		<SimpleData name="timestamp">-55.092778</SimpleData>
+		<SimpleData name="begin">-29.342805</SimpleData>
+		<SimpleData name="end">25.144200</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.092778,-29.342805,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SAT-EXII-PA-1406</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-03-28</SimpleData>
+		<SimpleData name="timestamp">-54.712800</SimpleData>
+		<SimpleData name="begin">-29.401742</SimpleData>
+		<SimpleData name="end">6.696900</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.7128,-29.401742,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LAV-CGR-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-04-12</SimpleData>
+		<SimpleData name="timestamp">-54.398690</SimpleData>
+		<SimpleData name="begin">-30.791678</SimpleData>
+		<SimpleData name="end">6.818953</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.39869,-30.791678,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LAV-CGR-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-04-15</SimpleData>
+		<SimpleData name="timestamp">-54.439343</SimpleData>
+		<SimpleData name="begin">-30.783288</SimpleData>
+		<SimpleData name="end">35.111273</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.439343,-30.783288,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LAV-EXIII-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-04-11</SimpleData>
+		<SimpleData name="timestamp">-54.503307</SimpleData>
+		<SimpleData name="begin">-30.922966</SimpleData>
+		<SimpleData name="end">22.806900</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.503307,-30.922966,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LAV-CGR-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-04-14</SimpleData>
+		<SimpleData name="timestamp">-54.414419</SimpleData>
+		<SimpleData name="begin">-30.801192</SimpleData>
+		<SimpleData name="end">53.538916</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.414419,-30.801192,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLI_EXIV-P-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-05-14</SimpleData>
+		<SimpleData name="timestamp">-55.403403</SimpleData>
+		<SimpleData name="begin">-30.995075</SimpleData>
+		<SimpleData name="end">8.770500</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.403403,-30.995075,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLI_EXIV-P-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-05-14</SimpleData>
+		<SimpleData name="timestamp">-55.326052</SimpleData>
+		<SimpleData name="begin">-31.001799</SimpleData>
+		<SimpleData name="end">10.804500</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.326052,-31.001799,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLI_EXIV-P-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-05-15</SimpleData>
+		<SimpleData name="timestamp">-55.537394</SimpleData>
+		<SimpleData name="begin">-30.809709</SimpleData>
+		<SimpleData name="end">8.650800</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.537394,-30.809709,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLI_EXIV-P-1404</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-05-15</SimpleData>
+		<SimpleData name="timestamp">-55.409159</SimpleData>
+		<SimpleData name="begin">-30.846739</SimpleData>
+		<SimpleData name="end">9.336600</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.409159,-30.846739,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SLI_EXIV-P-1405</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-05-16</SimpleData>
+		<SimpleData name="timestamp">-55.376349</SimpleData>
+		<SimpleData name="begin">-30.605547</SimpleData>
+		<SimpleData name="end">11.744100</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-55.376349,-30.605547,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CGU-EXV-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-10-01</SimpleData>
+		<SimpleData name="timestamp">-52.809736</SimpleData>
+		<SimpleData name="begin">-31.297286</SimpleData>
+		<SimpleData name="end">12.420000</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-52.809736,-31.297286,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CGU-EXV-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-10-02</SimpleData>
+		<SimpleData name="timestamp">-52.762276</SimpleData>
+		<SimpleData name="begin">-30.972135</SimpleData>
+		<SimpleData name="end">18.587700</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-52.762276,-30.972135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CGU-EXV-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-10-02</SimpleData>
+		<SimpleData name="timestamp">-52.803984</SimpleData>
+		<SimpleData name="begin">-31.152153</SimpleData>
+		<SimpleData name="end">19.652400</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-52.803984,-31.152153,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CGU-EXV-PA-1404</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-10-03</SimpleData>
+		<SimpleData name="timestamp">-53.095001</SimpleData>
+		<SimpleData name="begin">-31.288816</SimpleData>
+		<SimpleData name="end">26.968500</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.095001,-31.288816,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JAG-EXVI-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-10-27</SimpleData>
+		<SimpleData name="timestamp">-53.364183</SimpleData>
+		<SimpleData name="begin">-32.503109</SimpleData>
+		<SimpleData name="end">13.158899</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.364183,-32.503109,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JAG-EXVI-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-10-28</SimpleData>
+		<SimpleData name="timestamp">-53.375667</SimpleData>
+		<SimpleData name="begin">-32.255999</SimpleData>
+		<SimpleData name="end">37.177530</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.375667,-32.255999,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUA-EXVII-PA_1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-12-16</SimpleData>
+		<SimpleData name="timestamp">-56.312233</SimpleData>
+		<SimpleData name="begin">-30.432216</SimpleData>
+		<SimpleData name="end">6.817500</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-56.312233,-30.432216,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUA-EXVII-PA_1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-12-17</SimpleData>
+		<SimpleData name="timestamp">-56.266185</SimpleData>
+		<SimpleData name="begin">-30.423272</SimpleData>
+		<SimpleData name="end">22.308530</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-56.266185,-30.423272,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUA-EXVII-PA_1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-12-18</SimpleData>
+		<SimpleData name="timestamp">-56.784917</SimpleData>
+		<SimpleData name="begin">-29.958534</SimpleData>
+		<SimpleData name="end">149.162799</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-56.784917,-29.958534,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VAC-CCS-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-11-10</SimpleData>
+		<SimpleData name="timestamp">-50.965713</SimpleData>
+		<SimpleData name="begin">-28.169420</SimpleData>
+		<SimpleData name="end">8.965800</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-50.965713,-28.16942,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VAC-CCS-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-11-10</SimpleData>
+		<SimpleData name="timestamp">-50.972182</SimpleData>
+		<SimpleData name="begin">-28.196345</SimpleData>
+		<SimpleData name="end">38.740500</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-50.972182,-28.196345,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VAC-CCS-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-11-11</SimpleData>
+		<SimpleData name="timestamp">-51.000668</SimpleData>
+		<SimpleData name="begin">-28.195559</SimpleData>
+		<SimpleData name="end">67.144500</SimpleData>
+		<SimpleData name="altitudeMo">4.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-51.000668,-28.195559,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PAI-SC-PA-1401</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-11-08</SimpleData>
+		<SimpleData name="timestamp">-50.186739</SimpleData>
+		<SimpleData name="begin">-27.986170</SimpleData>
+		<SimpleData name="end">17.466300</SimpleData>
+		<SimpleData name="altitudeMo">2.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-50.186739,-27.98617,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PAI-SC-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-11-08</SimpleData>
+		<SimpleData name="timestamp">-50.183470</SimpleData>
+		<SimpleData name="begin">-28.027621</SimpleData>
+		<SimpleData name="end">16.551000</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-50.18347,-28.027621,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PAI-SC-PA-1403</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-11-09</SimpleData>
+		<SimpleData name="timestamp">-50.154555</SimpleData>
+		<SimpleData name="begin">-27.989177</SimpleData>
+		<SimpleData name="end">17.088300</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-50.154555,-27.989177,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LAV-EXIII-PA-1402</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="Source">OUTPUT</SimpleData>
+		<SimpleData name="descriptio">2014-04-15</SimpleData>
+		<SimpleData name="timestamp">-54.939029</SimpleData>
+		<SimpleData name="begin">-30.912430</SimpleData>
+		<SimpleData name="end">13.717800</SimpleData>
+		<SimpleData name="altitudeMo">3.000000</SimpleData>
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.9390285109999,-30.9124296439999,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BAG-EVIII-PA-1503</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-54.3590503569979,-31.2550594404079,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BAG-EVIII-PA-1501</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.9287277989946,-31.3032085139992,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BAG-EVIII-PA-1502</name>
+	<ExtendedData><SchemaData schemaUrl="#PTOS_PPBIO_NEXUS">
+		<SimpleData name="tessellate">0</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+		<SimpleData name="drawOrder">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>clampToGround</altitudeMode><coordinates>-53.8447608189883,-31.3905322009991,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
