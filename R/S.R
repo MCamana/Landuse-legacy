@@ -1,11 +1,11 @@
 ####Libraries####
-library(here) ##todas
+library(here) 
 library(iNEXT)
 library(ape)
-library(plotTaxa2.R) ###output
+library(plotTaxa2.R) 
 
 ##Gráfico com o resultado das regressoes
-png(here("output", "figures", "LM.png"))
+png(here::here("output", "figures", "LM.png"))
 par(mfrow=c(1,1), mar=c(4, 3.5, .1, 0.1), cex=1, las=0, tcl=-0.3)
 vecpoints<-ifelse(RIQmod[,2]<0.05,19,1)
 plot(RIQmod[,1]~c(1985:2013), xlab = "", ylab="Effect size (richness)", xaxt="n", pch=vecpoints, mgp=c(2.2, 0.5, 0),tcl=-0.3,lwd=2, cex=1.2, cex.lab=1.2)
@@ -18,7 +18,7 @@ dev.off()
 ##Efeito do land use em 1993 e 2013
 degrass1993<-100-dat1$X1993
 degrass2013<-100-dat1$X2013
-png(here("output", "supp", "LM_year.png"))
+png(here::here("output", "supp", "LM_year.png"))
 par(mfrow=c(1,1), mar=c(3.2, 3.2, .1, 0.1), cex=1, las=0, tcl=-0.3)
 plot(riqTOT~degrass1993, xlab='Native vegetation conversion (%)',ylab = 'Species richness', mgp=c(2, 0.5, 0),tcl=-0.3, lwd=1, bg="orange", pch=21, cex=1.5, cex.lab=1.2)
 points(riqTOT~degrass2013, xlab='Native vegetation conversion (%)',ylab = 'Species richness',  mgp=c(2, 0.5, 0),tcl=-0.3, lwd=1, bg="blue", pch=21, cex=1.5, cex.lab=1.2)
@@ -29,7 +29,7 @@ dev.off()
 
 
 ##Grafico RDA
-png(here("output", "figures", "RDA.png"))
+png(here::here("output", "figures", "RDA.png"))
 par(mfrow=c(1,1), mar=c(4, 3.5, .1, 0.1), cex=1, las=0, tcl=-0.3)
 vecpoints1<-ifelse(COMPmod[,2]<0.05,19,1)
 plot(COMPmod[,1]~c(1985:2013), xlab = "", ylab="Effect size (composition)", xaxt="n", mgp=c(2.2, 0.5, 0),tcl=-0.3,lwd=2, cex=1.2, cex.lab=1.2, pch=vecpoints1)
@@ -40,7 +40,7 @@ dev.off()
 
 
 ####### PLOT COMPOSTO RIQ E COMP ########
-png(here("output", "figures", "Plots.png"))
+png(here::here ("output", "figures", "Plots.png"))
 par(mfrow=c(2,1), mar=c(4, 3.5, .1, 0.1), cex=1, las=0, tcl=-0.3)
 vecpoints<-ifelse(RIQmod[,2]<0.05,19,1)
 plot(RIQmod[,1], xlab = "", ylab="Effect size (richness)", xaxt="n", mgp=c(2.2, 0.5, 0),tcl=-0.3,lwd=2, cex=1.2, cex.lab=1.4, ylim=c(0.15,0.56), pch=vecpoints)
@@ -53,9 +53,24 @@ mtext("Years", las=0, cex=1.4, 1, 3, outer=F)
 legend("topright", legend=c("B"),cex=1.5, bty="n",text.font=2)
 dev.off()
 
+##Cluste grupos funcionais
+png(here::here("output", "supp", "cluster.png"), width = 6, height =10, units = 'in', res = 600)
+#plot(hc2, cex=0.3)
+par(cex=0.3, mar=c(5, 8, 4, 1))
+#plot(as.dendrogram(hc2), xlab = "", sub="", ylab = "Gower distance", horiz = T, cex.axis=1)
+plot(as.dendrogram(hc2), xlab="", ylab="", main="", sub="", axes=FALSE, horiz = T)
+par(cex=0.5)
+title(ylab="Gower distance")
+axis(2, cex.axis=1)
+#groups <- cutree(hc2, k=18)
+rect.dendrogram(as.dendrogram(hc2),k=18,border = "red", lwd = 0.5, lty = 3, lower_rect=-0.3, xpd=T, horiz = T)
+#rect.hclust(hc2, k=18, border="red")
+dev.off()
+#### Quantos grupos usar? Usar método de largura da silhueta
+
 ##GRAFICOS TAX TITAN
 
-png (png(here("output", "figures", "titan_tax.png")))
+png (png(here::here("output", "figures", "titan_tax.png")))
 par(mfrow=c(3,2), mar=c(2.6, 4, 0.5, 3.5), cex=1, las=0, tcl=-0.3)
 plotTaxa2(titanNAT93, xlabel = "NVL 1993 (%)",cex.axis = 0.9, cex.taxa = 0.9, xmin=0, xmax=80)
 legend("topright", legend=c("A"),cex=1.5, bty="n",text.font=2)
@@ -73,7 +88,7 @@ dev.off()
 
 ##GRAFICOS FUN TITAN
 
-png (png(here("output", "figures", "titan_fun.png")))
+png (png(here::here("output", "figures", "titan_fun.png")))
 par(mfrow=c(2,2), mar=c(2.6, 4, 0.5, 3.5), cex=1, las=0, tcl=-0.3)
 plotTaxa2(FUN.titanNAT93, z2=F, xlabel = "NVL 1993 (%)",cex.axis = 0.9, cex.taxa = 0.9, xmin=0, xmax=80)
 legend("topright", legend=c("A"),cex=1.5, bty="n",text.font=2)
