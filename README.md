@@ -6,4 +6,6 @@ The folder "data" contains the files used in analyses (processed) and previously
 
 The folder "R" contains three scripts. "C" is used to charge the files, "D" is used to run the analyses, and "S" is used to generate the figures and tables used in the main manuscript and supplementar material.
 
+Cite this repository: [![DOI](https://zenodo.org/badge/371711534.svg)](https://zenodo.org/badge/latestdoi/371711534)
+
 https://zenodo.org/badge/latestdoi/371711534
